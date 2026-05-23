@@ -45,6 +45,54 @@ nav a:hover{
     color:#38bdf8;
 }
 
+
+/* BOTONES SUPERIORES */
+
+.top-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin-top:15px;
+    margin-bottom:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.top-btn{
+
+    background:#38bdf8;
+
+    color:#0f172a;
+
+    padding:12px 22px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+    font-size:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+.top-btn:hover{
+
+    background:#0ea5e9;
+
+    transform:translateY(-5px);
+
+}
+
 /* HERO */
 
 .hero{
